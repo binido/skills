@@ -1,0 +1,8 @@
+{
+  "name": "binido",
+  "owner": { "name": "binido" },
+  "description": "Мои скилы для агентов.",
+  "plugins": [
+    { "name": "binido-skills", "source": "./", "description": "Мои скилы для агентов." }
+  ]
+}

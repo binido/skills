@@ -1,0 +1,7 @@
+{
+  "name": "binido-skills",
+  "description": "Мои скилы для агентов: описание веток, изменения, чистка комментов, проверка ручек.",
+  "author": { "name": "binido" },
+  "repository": "https://github.com/binido/skills",
+  "license": "MIT"
+}

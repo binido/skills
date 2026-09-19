@@ -29,6 +29,7 @@ npx skills@latest add binido/skills
 | [change](skills/change/SKILL.md) | Процесс нетривиального изменения: фича, дефект, рефакторинг |
 | [clean-comments](skills/clean-comments/SKILL.md) | Чистка уже написанных комментариев и докстрингов |
 | [comment-style](skills/comment-style/SKILL.md) | Сразу пишет комментарии и докстринги в нужном стиле |
+| [mentor](skills/mentor/SKILL.md) | Режим наставника: подсказки вместо готового кода, только ручной вызов |
 | [verify-endpoint](skills/verify-endpoint/SKILL.md) | Проверка HTTP-ручек на локальном сервере |
 
 ## Как добавить скил

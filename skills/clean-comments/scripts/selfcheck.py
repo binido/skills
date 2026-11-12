@@ -43,7 +43,7 @@ def check_comments_normalised() -> None:
     comment = next(line for line in fixed.splitlines() if line.strip().startswith('#'))
     assert '—' not in comment and '«' not in comment, 'тире или ёлочки остались'
     assert '->' in comment and '<=' in comment, 'стрелка или знак сравнения не заменены'
-    assert fixed.splitlines()[0] == '"""Шапка - с тире и "ёлочками"."""', 'шапка не вычищена'
+    assert fixed.splitlines()[0] == '"""Шапка - с тире и "елочками"."""', 'шапка не вычищена'
     assert count >= 8, f'заменено подозрительно мало символов - {count}'
 
 

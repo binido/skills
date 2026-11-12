@@ -13,13 +13,13 @@
 
 Скилы вызываются как `/binido-skills:<имя>`. Обновить: `/plugin marketplace update binido`, либо включить автообновление в `/plugin` → Marketplaces.
 
-**Любой агент** (Codex, Cursor, Gemini CLI, Claude Code и др.):
+**Другие агенты** (Codex, Cursor, Gemini CLI и др.):
 
 ```bash
-npx skills@latest add binido/skills
+npx skills@latest add binido/skills -g
 ```
 
-Установщик спросит, какие скилы ставить и в какие агенты. Обновить: `npx skills update`.
+Установщик спросит, какие скилы ставить и в какие агенты. Claude Code в списке сними: для него есть плагин, иначе скилы задвоятся. Обновлять той же командой, а не `npx skills update`: update ставит скилы во все найденные на машине агенты, включая Claude Code.
 
 ## Скилы
 

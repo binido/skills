@@ -26,7 +26,7 @@ npx skills@latest add binido/skills
 | Скил | Что делает |
 |------|------------|
 | [branch-desc](skills/branch-desc/SKILL.md) | Описание изменений ветки для MR/PR |
-| [change](skills/change/SKILL.md) | Процесс нетривиального изменения: фича, дефект, рефакторинг |
+| [change](skills/change/SKILL.md) | Общий процесс нетривиального изменения, дополняющий профильные скиллы любого агента |
 | [clean-comments](skills/clean-comments/SKILL.md) | Чистка уже написанных комментариев и докстрингов |
 | [comment-style](skills/comment-style/SKILL.md) | Сразу пишет комментарии и докстринги в нужном стиле |
 | [mentor](skills/mentor/SKILL.md) | Режим наставника: подсказки вместо готового кода, только ручной вызов |
